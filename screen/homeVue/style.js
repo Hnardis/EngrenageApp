@@ -1,31 +1,31 @@
-import { StyleSheet } from 'react-native';
-import { PADDING } from '../../tools/constante';
-//import { white } from 'react-native-paper/lib/typescript/styles/themes/v2/colors';
-
-
 const homeVueStyle = StyleSheet.create({
-    header :{
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems : 'center',
-        paddingHorizontal : PADDING.horizontal,
-        paddingVertical: PADDING.vertical,
-       // backgroundColor: 'white',
-
-    },
-    userImg: {
-        width: 50,
-        height :50,
-        borderRadius : 50/2,
-
-    },
-
-   userName : {
-
-        fontSize: 16,
-
-    }
-
+  header: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      paddingHorizontal: PADDING.horizontal,
+      paddingVertical: PADDING.vertical,
+  },
+  userImg: {
+      width: 50,
+      height: 50,
+      borderRadius: 50 / 2,
+  },
+  userName: {
+      fontSize: 16,
+  },
+  fonctionnaliteIcone: {
+      width: 200,
+      height: 150,
+      resizeMode: 'contain',
+      marginLeft: 20,
+  },
+  fonctionnaliteText: {
+      marginTop: 5,
+      marginLeft: 20,
+      fontSize: 12,
+      textAlign: 'center',
+  },
 });
 
 export default homeVueStyle;
